@@ -86,13 +86,17 @@ for i in given_list:
 print(count_5)
 
 # creating a program that takes in comma separated numbers and converts them into integers
-user_input = input("Enter numbers separated by commas")
+user_input = input("Enter numbers separated by commas: ")
 
 numbers = [int(x.strip()) for x in user_input.split(",")]
 print("Even numbers:")
 for i in numbers:
     if i % 2 == 0:
         print(i)
+
+# tuples
+t = (10, 20, 30,40)
+print(t[0])
 
 
 
