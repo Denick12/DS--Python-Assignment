@@ -64,5 +64,10 @@ print(string1)
 string2 = string1[0] + " " + string1[1]
 print(string2)
 
+# reversing a list using slicing
 my_list = [11,12,13,14]
 reversed_list = my_list[::-1]
+print(reversed_list)
+
+# reversing a list using a loop
+
