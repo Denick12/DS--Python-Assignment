@@ -51,3 +51,6 @@ print(fruits)
 print(fruits[2])
 
 fruits.append('Oranges')
+print(fruits)
+fruits.remove('bananas')
+print(fruits)
