@@ -27,5 +27,7 @@ else:
 
 dgt = int(input('Enter a number: '))
 if dgt % 2 == 0:
-    prin
+    print("Its Even Number")
+else:
+   print("Its Odd Number") 
 
