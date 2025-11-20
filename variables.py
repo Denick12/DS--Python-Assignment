@@ -44,3 +44,7 @@ elif 15 <=temp <=30:
     print('Warm')
 else:
     print('Cold')
+
+# lists
+fruits = ['apple', 'banana','cherry']
+fruits
