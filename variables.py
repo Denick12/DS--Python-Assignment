@@ -60,3 +60,6 @@ print(sum(numbers))
 
 string1 = ['Hello', 'World']
 print(string1)
+
+string2 = string1[0] + " " + string1[1]
+print(string2)
