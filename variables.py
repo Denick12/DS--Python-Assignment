@@ -19,5 +19,13 @@ m =8
 print(m)
 
 # conditional_statements
+num = int(input('Enter a Number: '))
+if num > 0:
+    print('Its Positive')
+else:
+    print('Its Negative')
 
+dgt = int(input('Enter a number: '))
+if dgt % 2 == 0:
+    prin
 
