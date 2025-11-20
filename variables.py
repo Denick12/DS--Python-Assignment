@@ -31,3 +31,16 @@ if dgt % 2 == 0:
 else:
    print("Its Odd Number") 
 
+age = int(input('Please Enter your age: '))
+if age >= 18:
+    print('You are eligible to vote')
+else:
+    print('You are under age')
+
+temp = int(input('Enter the temperature readings on the thermometer: '))
+if temp > 30:
+    print('Hot')
+elif 15 <=temp <=30:
+    print('Warm')
+else:
+    print('Cold')
