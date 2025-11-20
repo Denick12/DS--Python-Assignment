@@ -49,3 +49,5 @@ else:
 fruits = ['apple', 'banana','cherry']
 print(fruits)
 print(fruits[2])
+
+fruits.append('Oranges')
