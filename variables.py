@@ -57,3 +57,6 @@ print(fruits)
 
 numbers = [1,2,3,4,5,6]
 print(sum(numbers))
+
+string1 = ['Hello', 'World']
+print(string1)
