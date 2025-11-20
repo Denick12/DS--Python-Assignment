@@ -70,4 +70,12 @@ reversed_list = my_list[::-1]
 print(reversed_list)
 
 # reversing a list using a loop
+my_list1 = [1,2,3,4,5,6]
+reversed_my_list1 = []
+for i in range(len(reversed_my_list1)-1, -1, -1):
+    reversed_my_list1(my_list1[i])
+    
+print(reversed_my_list1)
+
+
 
