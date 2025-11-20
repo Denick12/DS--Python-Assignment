@@ -47,4 +47,5 @@ else:
 
 # lists
 fruits = ['apple', 'banana','cherry']
-fruits
+print(fruits)
+print(fruits[2])
