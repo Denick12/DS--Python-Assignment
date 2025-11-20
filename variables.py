@@ -52,5 +52,8 @@ print(fruits[2])
 
 fruits.append('Oranges')
 print(fruits)
-fruits.remove('bananas')
+fruits.remove('banana')
 print(fruits)
+
+numbers = [1,2,3,4,5,6]
+print(sum(numbers))
