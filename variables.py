@@ -74,8 +74,18 @@ my_list1 = [1,2,3,4,5,6]
 reversed_my_list1 = []
 for i in range(len(reversed_my_list1)-1, -1, -1):
     reversed_my_list1(my_list1[i])
-    
+
 print(reversed_my_list1)
+
+# counting repeating digit 5
+given_list = [5,6,7,8,9,0, 5,6,5,5,2]
+count_5 = 0
+for i in given_list:
+    if i == 5:
+        count_5 += 1
+print(count_5)
+
+
 
 
 
