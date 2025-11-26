@@ -1,102 +1,106 @@
-# variables
-name = 'Denick'
-print(name)
-a = 10
-b = 3.14
-print(a)
-is_student = True 
-print("Am I a student?", is_student)
-print(is_student)
-x = None
-print(x)
-print(type(x))
-m = 5
-n = 8 
-print(m)
-print(n)
+# # variables
+# name = 'Denick'
+# print(name)
+# a = 10
+# b = 3.14
+# print(a)
+# is_student = True 
+# print("Am I a student?", is_student)
+# print(is_student)
+# x = None
+# print(x)
+# print(type(x))
+# m = 5
+# n = 8 
+# print(m)
+# print(n)
 
-m =8
-print(m)
+# m =8
+# print(m)
 
-# conditional_statements
-num = int(input('Enter a Number: '))
-if num > 0:
-    print('Its Positive')
-else:
-    print('Its Negative')
+# # conditional_statements
+# num = int(input('Enter a Number: '))
+# if num > 0:
+#     print('Its Positive')
+# else:
+#     print('Its Negative')
 
-dgt = int(input('Enter a number: '))
-if dgt % 2 == 0:
-    print("Its Even Number")
-else:
-   print("Its Odd Number") 
+# dgt = int(input('Enter a number: '))
+# if dgt % 2 == 0:
+#     print("Its Even Number")
+# else:
+#    print("Its Odd Number") 
 
-age = int(input('Please Enter your age: '))
-if age >= 18:
-    print('You are eligible to vote')
-else:
-    print('You are under age')
+# age = int(input('Please Enter your age: '))
+# if age >= 18:
+#     print('You are eligible to vote')
+# else:
+#     print('You are under age')
 
-temp = int(input('Enter the temperature readings on the thermometer: '))
-if temp > 30:
-    print('Hot')
-elif 15 <=temp <=30:
-    print('Warm')
-else:
-    print('Cold')
+# temp = int(input('Enter the temperature readings on the thermometer: '))
+# if temp > 30:
+#     print('Hot')
+# elif 15 <=temp <=30:
+#     print('Warm')
+# else:
+#     print('Cold')
 
-# lists
-fruits = ['apple', 'banana','cherry']
-print(fruits)
-print(fruits[2])
+# # lists
+# fruits = ['apple', 'banana','cherry']
+# print(fruits)
+# print(fruits[2])
 
-fruits.append('Oranges')
-print(fruits)
-fruits.remove('banana')
-print(fruits)
+# fruits.append('Oranges')
+# print(fruits)
+# fruits.remove('banana')
+# print(fruits)
 
-numbers = [1,2,3,4,5,6]
-print(sum(numbers))
+# numbers = [1,2,3,4,5,6]
+# print(sum(numbers))
 
-string1 = ['Hello', 'World']
-print(string1)
+# string1 = ['Hello', 'World']
+# print(string1)
 
-string2 = string1[0] + " " + string1[1]
-print(string2)
+# string2 = string1[0] + " " + string1[1]
+# print(string2)
 
-# reversing a list using slicing
-my_list = [11,12,13,14]
-reversed_list = my_list[::-1]
-print(reversed_list)
+# # reversing a list using slicing
+# my_list = [11,12,13,14]
+# reversed_list = my_list[::-1]
+# print(reversed_list)
 
-# reversing a list using a loop
-my_list1 = [1,2,3,4,5,6]
-reversed_my_list1 = []
-for i in range(len(reversed_my_list1)-1, -1, -1):
-    reversed_my_list1(my_list1[i])
+# # reversing a list using a loop
+# my_list1 = [1,2,3,4,5,6]
+# reversed_my_list1 = []
+# for i in range(len(reversed_my_list1)-1, -1, -1):
+#     reversed_my_list1(my_list1[i])
 
-print(reversed_my_list1)
+# print(reversed_my_list1)
 
-# counting repeating digit 5
-given_list = [5,6,7,8,9,0, 5,6,5,5,2]
-count_5 = 0
-for i in given_list:
-    if i == 5:
-        count_5 += 1
-print(count_5)
+# # counting repeating digit 5
+# given_list = [5,6,7,8,9,0, 5,6,5,5,2]
+# count_5 = 0
+# for i in given_list:
+#     if i == 5:
+#         count_5 += 1
+# print(count_5)
 
-# creating a program that takes in comma separated numbers and converts them into integers
-user_input = input("Enter numbers separated by commas: ")
+# # creating a program that takes in comma separated numbers and converts them into integers
+# user_input = input("Enter numbers separated by commas: ")
 
-numbers = [int(x.strip()) for x in user_input.split(",")]
-print("Even numbers:")
-for i in numbers:
-    if i % 2 == 0:
-        print(i)
+# numbers = [int(x.strip()) for x in user_input.split(",")]
+# print("Even numbers:")
+# for i in numbers:
+#     if i % 2 == 0:
+#         print(i)
 
-# tuples
-t = (10, 20, 30,40)
-print(t[0])
+# # tuples
+# t = (10, 20, 30,40)
+# print(t[0])
+
+# create the dictionary & print 
+student = {"name":"Alice", "age":21, "major":"Math"}
+print(student)
 
 
 
