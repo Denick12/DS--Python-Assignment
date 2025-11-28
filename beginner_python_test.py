@@ -28,6 +28,15 @@ print(len(colors))
 
 print(colors[2])
 
+# Write a program that checks if apple is in the fruit list
+
+for i in fruits:
+    if fruits == "apple":
+        print("apple is  present")
+    else:
+        print("No apple")
+
+
 
 
 
