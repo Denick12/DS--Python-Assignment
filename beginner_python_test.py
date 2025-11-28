@@ -36,6 +36,14 @@ for fruit in fruits:
     else:
         print("No apples present")
 
+print(numbers.sort())
+
+a = [1,2]
+b = [3,4]
+
+c = a+b
+print(c)
+
 
 
 
