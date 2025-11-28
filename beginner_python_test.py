@@ -1,5 +1,5 @@
 # creating a list of fruits
-fruits = ["pawpaw", "oranges", "ovacodo", "grapes"]
+fruits = ["pawpaw", "oranges", "ovacodo", "grapes","apple","apple"]
 print(fruits)
 
 # add mango to fruits list
@@ -30,11 +30,16 @@ print(colors[2])
 
 # Write a program that checks if apple is in the fruit list
 
-for i in fruits:
-    if fruits == "apple":
-        print("apple is  present")
+for fruit in fruits:
+    if fruit == "apple":
+        print("apples is  present")
     else:
-        print("No apple")
+        print("No apples present")
+
+
+
+
+
 
 
 
