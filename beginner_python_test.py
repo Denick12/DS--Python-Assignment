@@ -16,3 +16,18 @@ print(fruits)
 fruits.pop(1)
 print(fruits)
 
+# 
+numbers = [1,2,3,4,5,6,6,7,8,8,9,0]
+print(numbers[-1],[1])
+
+colors = ["green", "blue", "purple", "white"]
+print(colors)
+colors[1] = "purple"
+print(colors)
+print(len(colors))
+
+print(colors[2])
+
+
+
+
