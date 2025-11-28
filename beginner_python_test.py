@@ -9,3 +9,10 @@ print(fruits)
 fruits.remove("oranges")
 print(fruits)
 
+fruits.append("oranges")
+print(fruits)
+
+# removing the second item in the list using pop(dynamically)
+fruits.pop(1)
+print(fruits)
+
